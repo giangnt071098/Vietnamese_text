@@ -1,4 +1,6 @@
 from keras.models import load_model
+import 
+
 model = load_model("./model_0.0453_0.9854.h5")
 
 def extract_phrases(text):
@@ -33,5 +35,5 @@ def accent_sentence(sentence):
         output += " "
   return output
 
-text = '''Trung Quoc da mo rong anh huong cua ho trong khu vuc thong qua cac buoc leo thang ep buoc cac nuoc lang gieng o Hoa Dong, Bien Dong, boi dap dao nhan tao va quan su hoa cac cau truc dia ly tren Bien Dong trai luat phap quoc te; Tim cach chia re Hoa Ky khoi cac dong minh chau A thong qua cac no luc ep buoc va leo lai kinh te'''
+text = samples.sample1
 print((accent_sentence(text)))
